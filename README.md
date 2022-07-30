@@ -1,27 +1,17 @@
-# Hello World example
+### Blog With Notion
 
-This example shows the most basic idea behind Next. We have 2 pages: `pages/index.tsx` and `pages/about.tsx`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities. The `day` directory shows that you can have subdirectories.
+해당 프로젝트는 notion-react-x, emotion을 사용해 만듦.
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/hello-world)
+Notion 웹 접속시, application > cookie 하위에 notion_user_id, token_v2 를 사용해 env 값을 설정할 수 있음.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example hello-world hello-world-app
+```
+NOTION_USER_ID=[notion_user_id]
+NOTION_TOKEN_V2=[token_v2]
+NOTION_ROOT_PAGE_ID=[notion_root_page_id]
 ```
 
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
+참고 - [https://github.com/NotionX/react-notion-x#private-pages](https://github.com/NotionX/react-notion-x#private-pages)
 
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+---
