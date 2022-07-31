@@ -1,0 +1,8 @@
+.notion > .notion-frame {
+  padding: 0;
+}
+
+.notion-page-icon-hero.notion-page-icon-span {
+  left: 16px;
+  margin-left: 0;
+}

@@ -1,6 +1,4 @@
 import React from "react";
-import Head from "next/head";
-import "react-notion-x/src/styles.css";
 
 import { NotionRenderer } from "react-notion-x";
 import { ExtendedRecordMap } from "notion-types";

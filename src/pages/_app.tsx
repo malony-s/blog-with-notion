@@ -4,12 +4,16 @@ import { ThemeProvider } from "@emotion/react";
 import NextProgress from "~/components/NextProgress";
 import Head from "next/head";
 import AppLayout from "~/layouts";
+import "react-notion-x/src/styles.css";
+import "~/components/NotionPage/style.css";
 
 const App = ({ Component, pageProps }) => (
   <>
     {globalStyles}
     <Head>
-      <title>Malony | {pageProps.pageInfo?.title}</title>
+      <link rel="favicon" href="./favicon.ico" />
+
+      <title>{`Malony | ${pageProps.pageInfo?.title}`}</title>
     </Head>
     <ThemeProvider theme={colors}>
       <NextProgress />

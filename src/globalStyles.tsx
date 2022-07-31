@@ -12,6 +12,8 @@ const globalStyles = (
         font-size: 16px;
         user-select: none;
         overscroll-behavior-y: none;
+        font-family: "Noto Sans KR", sans-serif;
+        --notion-font: "Noto Sans KR", sans-serif;
       }
     `}
   />
